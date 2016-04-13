@@ -23,6 +23,10 @@ dependencies {
 compile 'com.ivolley:parser:1.0'
 
 }
+在sdk 22以上的版本如果出现错误，在build.gradle的android中添加
+android{
+useLibrary 'org.apache.http.legacy'
+}
 
 3、添加library支持core.jar
 
