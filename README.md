@@ -96,4 +96,4 @@ useLibrary 'org.apache.http.legacy'
 
 将jar包安装到maven目录下
 
-mvn install:install-file -DgroupId=com.ione -DartifactId=demo -Dversion=1.0 -Dfile=生成的jar包路径 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=要安装的maven路径 -DcreateChecksum=true
+mvn install:install-file -DgroupId=com.ivolley -DartifactId=parser -Dversion=1.0 -Dfile=生成的jar包路径 -Dpackaging=jar -DgeneratePom=true -DlocalRepositoryPath=要安装的maven路径 -DcreateChecksum=true
